@@ -1,0 +1,13 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        exclude: 'beans'
+        
+  endpoint:
+    shutdown:
+      enabled: true
+      
+#shutdown is an actuator used to stop our application
+#Unlike other actuators,shutdown is mapped to POST request
