@@ -1,0 +1,11 @@
+{
+	"id": 1,
+	"name": "shital",
+	"email": "shital@gmail.com",
+	"phno": 1234,
+	"addr": {
+		"city": "Blr",
+		"state": "KA",
+		"country": "India"
+	}
+}
